@@ -3,7 +3,7 @@
 
 
 class Solution:
-    def maxProduct(self, nums: [int]) -> int:
+    def maxProduct(self, nums: List[int]) -> int:
         first, second = 0, 0
 
         for num in nums:
